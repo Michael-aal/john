@@ -7,8 +7,8 @@
 
 
 function Login(){
-  const email = document.querySelector(".email").value
-  const password = document.querySelector(".password").value
+  const email = document.getElementById("email").value
+  const password = document.getElementById("password").value
  console.log(email)
  console.log(password)
   if ( email == "Qrypti@gmail.com" && password == "1234"){
