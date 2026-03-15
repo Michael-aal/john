@@ -11,7 +11,7 @@ function Login(){
   const password = document.querySelector(".password").value
  console.log(email)
  console.log(password)
-  if ( email == "" && password == ""){
+  if ( email == "Qrypti@gmail.com" && password == "1234"){
       location.href = "main.html";
 
       alert("correct!!")
